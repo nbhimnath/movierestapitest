@@ -31,7 +31,7 @@ npm run cypress:run
 
 
 ## TESTS
--Includes HTTP status code verification
--Positive and Negative tests
--Data Validation
+- Includes HTTP status code verification
+- Positive and Negative tests
+- Data Validation
 
