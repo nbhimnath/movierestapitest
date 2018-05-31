@@ -9,6 +9,8 @@ Make sure you have node and npm installed on your machine.
 
 ## Installation
 **install all dependencies from project root path**
+create a symbolic link if npm install fails, ln -s /usr/bin/nodejs /usr/bin/node
+
 ```
 npm install
 ```
