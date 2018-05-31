@@ -62,6 +62,7 @@ describe('Assertion Based Positive & Negative tests', function (){
   })
 
   it('check movie id exists in each result', () => {
+    //use const from above - movies 
     movies()
       .each(movie =>
         expect(movie).to.have.any.keys('id')
@@ -134,6 +135,7 @@ describe('Data type validation tests', function (){
   })
 
   it('test date format for all movies is yyyy-mm-dd', () => {
+    //use regex to validate date format
     movies()
       .each(movie =>
                   expect(movie.release_date).to.match(/^\d{4}-\d{2}-\d{2}$/)     
