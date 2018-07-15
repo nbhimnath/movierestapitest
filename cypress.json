@@ -1,6 +1,6 @@
 {
   "baseUrl": "https://api.themoviedb.org/3/discover/movie",
   "env": {
-    "api_key": "606aaffd7ca10f0b80804a1f0674e4e1"
+    "api_key": "Replace with your API_Key"
   }
 }
